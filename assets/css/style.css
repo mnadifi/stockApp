@@ -291,7 +291,7 @@ td.text-right {
 @media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : portrait) {
 	.div-new-item {
 		max-width: 100%;
-    	font-size: 4em;
+    	font-size: 3.5em;
 	}
 
 	.div-new-item-coll {
