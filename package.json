@@ -1,13 +1,13 @@
 {
   "name": "StockApp",
   "version": "1.0.0",
-  "description": "",
+  "description": "App to keep track of Stock items.",
   "scripts": {
     "start": "webpack-dev-server --content-base .",
     "build": "NODE_ENV=production webpack --progress -p --optimize-minimize --config webpack.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "MN",
   "license": "MIT",
   "dependencies": {
     "babel": "6.1.18",
