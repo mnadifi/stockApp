@@ -11,7 +11,7 @@ body {
 div.table-title {
 	display: block;
 	margin: auto;
-	max-width: 600px;
+	max-width: 900px;
 	padding:5px;
 	width: 100%;
 }
@@ -34,7 +34,7 @@ div.table-title {
 	border-collapse: collapse;
 	height: 320px;
 	margin: auto;
-	max-width: 600px;
+	max-width: 900px;
 	padding:5px;
 	width: 100%;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -287,7 +287,7 @@ td.text-right {
 	top:1px;
 }
 
-/* Mobile CSS */
+/* Mobile CSS Portrait */
 @media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : portrait) {
 	.div-new-item {
 		max-width: 100%;
@@ -341,5 +341,64 @@ td.text-right {
 		font-size: .8em;
 	    width: 100%;
     	height: 120px;
+	}
+}
+
+/* Mobile CSS Portrait */
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : landscape) {
+	.div-new-item {
+		width: 96%;
+		max-width: 100%;
+	    font-size: 2.2em;
+	}
+
+	.div-new-item-coll {
+		width: 35%;
+	}
+
+	.div-new-item-colr {
+		width: 65%;
+	}
+
+	.input-css {
+		width: 100%;
+		height: 50px;
+		font-size: 1em;
+	}
+
+	div.table-title {
+		max-width: 100%;
+		padding: 0;
+	}
+
+	.submit-btn {
+		font-size: .6em;
+		width: 150px;
+		height: 60px;
+		margin-top: 30px;
+		float: right;
+	}
+
+	.table-title h3 {
+	   	font-size: 2.5em;
+	}
+
+	.table-fill {
+		max-width: 100%;
+	}
+
+	th.text-left {
+		font-size: 1.5em;
+    	font-weight: bold;
+	}
+
+	td.text-left {
+		font-size: 1.7em;
+	}
+
+	.remove-btn {
+		font-size: .8em;
+	    width: 100%;
+    	height: 80px;
 	}
 }
